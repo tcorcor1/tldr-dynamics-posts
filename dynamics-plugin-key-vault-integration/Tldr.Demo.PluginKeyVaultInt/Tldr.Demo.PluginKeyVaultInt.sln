@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tldr.Demo.PluginKeyVaultInt", "Tldr.Demo.PluginKeyVaultInt\Tldr.Demo.PluginKeyVaultInt.csproj", "{66A7F30A-BD07-45B0-B11A-3A62B7E651EB}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Tldr.Common", "Tldr.Common\Tldr.Common.shproj", "{2CB27D5C-D97A-4B7A-B7B8-772CD92CE9CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66A7F30A-BD07-45B0-B11A-3A62B7E651EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A7F30A-BD07-45B0-B11A-3A62B7E651EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A7F30A-BD07-45B0-B11A-3A62B7E651EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A7F30A-BD07-45B0-B11A-3A62B7E651EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1AFB655-A78C-4578-9719-5D40BDBBDF02}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Tldr.Common\Tldr.Common.projitems*{2cb27d5c-d97a-4b7a-b7b8-772cd92ce9ce}*SharedItemsImports = 13
+		Tldr.Common\Tldr.Common.projitems*{66a7f30a-bd07-45b0-b11a-3a62b7e651eb}*SharedItemsImports = 4
+	EndGlobalSection
+EndGlobal
