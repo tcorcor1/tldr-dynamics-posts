@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tldr.Demo.PluginLoggingAlerts", "Tldr.Demo.PluginLoggingAlerts\Tldr.Demo.PluginLoggingAlerts.csproj", "{9043AAB4-BFBE-40D9-A8B9-FDAECE992E19}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Tldr.Common", "Tldr.Common\Tldr.Common.shproj", "{79553D1C-3DAE-47B1-BDA4-48AEAFFEBE62}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Tldr.Common\Tldr.Common.projitems*{79553d1c-3dae-47b1-bda4-48aeaffebe62}*SharedItemsImports = 13
+		Tldr.Common\Tldr.Common.projitems*{9043aab4-bfbe-40d9-a8b9-fdaece992e19}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9043AAB4-BFBE-40D9-A8B9-FDAECE992E19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9043AAB4-BFBE-40D9-A8B9-FDAECE992E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9043AAB4-BFBE-40D9-A8B9-FDAECE992E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9043AAB4-BFBE-40D9-A8B9-FDAECE992E19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {146700E7-9DB4-4E39-98C0-4EF8AAA50BB0}
+	EndGlobalSection
+EndGlobal
