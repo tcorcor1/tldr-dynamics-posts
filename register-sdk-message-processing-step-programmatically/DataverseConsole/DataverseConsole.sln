@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataverseConsole", "DataverseConsole.csproj", "{52B6497E-F329-4B7A-9796-114EDAEFF466}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52B6497E-F329-4B7A-9796-114EDAEFF466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52B6497E-F329-4B7A-9796-114EDAEFF466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52B6497E-F329-4B7A-9796-114EDAEFF466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52B6497E-F329-4B7A-9796-114EDAEFF466}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6784C85B-720B-4B70-AE94-17E6EED6A6D7}
+	EndGlobalSection
+EndGlobal
