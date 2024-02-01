@@ -58,7 +58,7 @@ namespace DataverseConsole
 				["name"] = "tldrdynamicsimage",
 				["entityalias"] = "tldrdynamicsimage",
 				["description"] = "Tldr Dynamics - Demo",
-				["imagetype"] = (int)ImageType.PostImage,
+				["imagetype"] = new OptionSetValue((int)ImageType.PostImage),
 				["messagepropertyname"] = "Target",
 				["sdkmessageprocessingstepid"] = new EntityReference("sdkmessageprocessingstep", sdkMessageProcessingStepGuid)
 				// If ["attributes"] property is not included, all columns are included in image otherwise provide a comma-separated list
